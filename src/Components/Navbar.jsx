@@ -29,15 +29,7 @@ const Navbar = ({setSearch}) => {
           <button type="submit">Search</button>
         </form>
 
-        <div className="nav-links">
-          <button>Feature</button>
-          <button>Drama</button>
-          <button>Comedy</button>
-          <button>Action</button>
-          <button>Romance</button>
-          <button>Thriller</button>
-          <button>Horror</button>
-        </div>
+ 
       </nav>
     </div>
   )
