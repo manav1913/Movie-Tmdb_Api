@@ -60,12 +60,6 @@ const Navbar = ({ setSearch, selectedGenre, setSelectedGenre }) => {
           Drama
         </button>
 
-        <button
-          className={selectedGenre === "Comedy" ? "active-genre" : ""}
-          onClick={() => handleGenreClick("Comedy")}
-        >
-          Comedy
-        </button>
 
         <button
           className={selectedGenre === "Action" ? "active-genre" : ""}
@@ -88,12 +82,7 @@ const Navbar = ({ setSearch, selectedGenre, setSelectedGenre }) => {
           Thriller
         </button>
 
-        <button
-          className={selectedGenre === "Horror" ? "active-genre" : ""}
-          onClick={() => handleGenreClick("Horror")}
-        >
-          Horror
-        </button>
+   
 
         <Link to="/favorites" className="fav-link">
           Favorites
